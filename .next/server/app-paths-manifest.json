@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/analytics/page": "app/analytics/page.js",
+  "/bookings/page": "app/bookings/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/finance/page": "app/finance/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/register/page": "app/register/page.js",
+  "/reviews/page": "app/reviews/page.js",
+  "/s/[slug]/page": "app/s/[slug]/page.js",
+  "/services/page": "app/services/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/share/page": "app/share/page.js",
+  "/technicians/page": "app/technicians/page.js",
+  "/waha/page": "app/waha/page.js"
+}
