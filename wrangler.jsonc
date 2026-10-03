@@ -24,6 +24,18 @@
     {
       "pattern": "servora-app.zwart.qzz.io",
       "custom_domain": true
+    },
+    {
+      "pattern": "bookflow-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "fieldroute-os-app.zwart.qzz.io",
+      "custom_domain": true
+    },
+    {
+      "pattern": "fleetmile-app.zwart.qzz.io",
+      "custom_domain": true
     }
   ]
 }
