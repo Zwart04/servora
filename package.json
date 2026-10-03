@@ -6,10 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "build:cloudflare": "opennextjs-cloudflare build",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "16.3.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "lucide-react": "^0.460.0",
@@ -24,6 +27,8 @@
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
     "@tailwindcss/postcss": "^4",
-    "postcss": "^8"
+    "postcss": "^8",
+    "@opennextjs/cloudflare": "1.20.8",
+    "wrangler": "4.147.0"
   }
 }

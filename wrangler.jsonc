@@ -1,0 +1,26 @@
+{
+  "name": "zwart04-servora",
+  "compatibility_date": "2026-10-03",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "servora-app.zwart.qzz.io",
+      "custom_domain": true
+    }
+  ],
+  "main": ".open-next/worker.js",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "zwart04-servora"
+    }
+  ]
+}
